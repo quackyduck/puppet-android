@@ -4,8 +4,8 @@
 #
 #   include android::platform_tools
 class android::platform_tools($ensure = present) {
-  android::definition{ 'platform-tools':
+  android::definition{ 'platform-tool':
     ensure    => $ensure,
-    dest_path => 'platform-tools',
+    dest_path => 'platform-tool',
   }
 }
